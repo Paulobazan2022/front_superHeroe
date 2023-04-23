@@ -1,0 +1,70 @@
+.containerModal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerModal_1 {
+    width: 500px;
+    min-height: 100px;
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.buttonModal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+
+}
+
+button:hover {
+    background: #f2f2f2;
+}
+
+.containerModal_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(3, 3, 113);
+    background-color: azure;
+}
+
+.containerModal_text_Red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(188, 26, 26);
+    background-color: azure;
+}
+
+
+.textModal {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.textModal_P {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
